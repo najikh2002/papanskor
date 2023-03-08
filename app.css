@@ -15,15 +15,16 @@ h2 {
 }
 
 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   text-align: center;
-  padding: 0.5vh 0.5vw;
 }
 
 footer {
   text-align: center;
   font-size: small;
   position: relative;
-  bottom: -2vh;
   color: #9aabd8;
 }
 
@@ -40,7 +41,7 @@ footer {
   background: transparent;
   color: #9aabd8;
   border-color: #9aabd8;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .btn-primary:hover,
@@ -64,4 +65,17 @@ p,
 select,
 option {
   touch-action: manipulation;
+}
+
+@media screen and (max-width: 768px) {
+  #reset {
+    font-size: 0.8rem;
+  }
+  .d-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .scoreboard {
+    justify-content: center;
+    align-items: center;
+  }
 }

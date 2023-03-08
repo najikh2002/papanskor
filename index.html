@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <div class="scoreboard container d-flex flex-column justify-content-center">
+    <div
+      class="scoreboard container d-flex flex-column justify-content-center align-items-center"
+    >
       <div
         class="row row-cols-1 row-cols-md-2 text-center py-5 justify-content-center"
       >
@@ -43,15 +45,16 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-6 col-md-4 mx-auto pb-5">
-        <select name="" id="win-point">
-          <option value="0">-- Pilih Jenis Olahraga --</option>
+        <select class="select text-align-center" name="" id="win-point">
+          <option value="0">--</option>
           <option value="11">Tennis Table</option>
           <option value="21">Badminton</option>
         </select>
       </div>
-      <div class="d-grid gap-2 col-2 col-md-4 mx-auto pb-5">
+      <div class="d-grid gap-2 col-2 col-md-4 mx-auto pb-5 align-items-center">
         <button class="btn btn-primary" id="reset">Reset</button>
       </div>
+
       <footer>&copy; 2023 - Hizbullah Najihan</footer>
     </div>
 
