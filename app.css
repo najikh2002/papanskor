@@ -21,6 +21,10 @@ select {
   text-align: center;
 }
 
+select option {
+  text-align: center;
+}
+
 footer {
   text-align: center;
   font-size: small;
