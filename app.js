@@ -39,6 +39,7 @@ p2Btn.addEventListener("click", function () {
     if (p1Score >= 10 && p2Score >= 10) {
       if (p1Score === p2Score) {
         winPoint += 1;
+        p2Display.style.color = "green";
       }
     }
   }
