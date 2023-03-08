@@ -57,3 +57,11 @@ footer {
   border-color: #f94f6d;
   box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 50%);
 }
+
+body,
+button,
+p,
+select,
+option {
+  touch-action: manipulation;
+}
