@@ -37,8 +37,8 @@ p2Btn.addEventListener("click", function () {
       gameOver = true;
       p2Display.style.color = "green";
     }
-    if (p1Score >= 10 && p2Score >= 10) {
-      if (p1Score === p2Score) {
+    if (p2Score >= 10 && p1Score >= 10) {
+      if (p2Score === p1Score) {
         winPoint += 1;
       }
     }
